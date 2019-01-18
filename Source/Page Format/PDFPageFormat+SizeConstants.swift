@@ -68,7 +68,7 @@ public extension PDFPageFormat {
             return CGSize(width: 842, height: 1191)  // 297  x 420  mm | 11.7 x 16.5 in
         case .a4:
             return CGSize(width: 595, height: 842)   // 210  x 297  mm | 8.3  x 11.7 in
-        case .a4Landscaped:
+        case .a4Landscape:
             return CGSize(width: 842, height: 595)   // 297  x 210  mm | 11.7  x 8.3 in
         case .a5:
             return CGSize(width: 420, height: 595)   // 148  x 210  mm | 5.8  x 8.3  in
