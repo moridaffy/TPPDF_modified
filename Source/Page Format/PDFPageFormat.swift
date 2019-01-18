@@ -26,6 +26,7 @@ public enum PDFPageFormat {
      For more detail: https://en.wikipedia.org/wiki/Paper_size#A_series
      */
     case a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10
+    case a4Landscape
 
     /**
      B-Series is the geometric mean of the A-series
@@ -48,7 +49,7 @@ public enum PDFPageFormat {
             return usSize
         case .ansiA, .ansiB, .ansiC, .ansiD, .ansiE:
             return ansiSize
-        case .a0, .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9, .a10:
+        case .a0, .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9, .a10, .a4Landscape:
             return aSize
         case .b0, .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10:
             return bSize
